@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Splitter & Beat Share</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#splitter">Audio Splitter</a></li>
+                <li><a href="#beat-share">Beat Share</a></li>
+                <li><a href="#samples">Loops & Samples</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section id="splitter">
+            <h1>Audio Splitter</h1>
+            <p>Upload your audio and split it into separate components (e.g., vocals, drums).</p>
+            <input type="file" id="upload-audio" />
+            <button id="split-button">Split Audio</button>
+            <div id="split-results"></div>
+        </section>
+
+        <section id="beat-share">
+            <h1>Beat Share</h1>
+            <button id="upload-beat">Upload Your Beat</button>
+            <div id="beats-list">
+                <!-- List of beats with comments -->
+            </div>
+        </section>
+
+        <section id="samples">
+            <h1>Loops & Samples</h1>
+            <button id="upload-sample">Upload a Sample</button>
+            <div id="samples-list">
+                <!-- List of loops/samples -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Audio Splitter & Beat Share Platform</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
